@@ -11,7 +11,7 @@ function App() {
       <SideBar />
       <Routes>
 
-        <Route path='/mypage' element={<>마이페이지</>}/>
+        <Route path='/mypage' element={<>마이페이지1</>}/>
         <Route path='/board' element={<>게시판</>}/>
         <Route path='/notice' element={<>공지사항</>}/>
 
