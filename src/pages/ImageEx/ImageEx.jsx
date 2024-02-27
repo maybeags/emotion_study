@@ -146,7 +146,7 @@ function ImageEx() {
         uploadTask.on(
             "state_changed",
             (snapshot) => {
-                setProgressPercent(Math.round(snapshot.bytesTransferred / snapshot.totalBytes * 100))
+                setProgressPercent(Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100))
             },
             (error) => {},
             () => {
